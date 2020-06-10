@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ecommerceApp",
+    "slug": "ecom",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/places.png",
+    "splash": {
+      "image": "./assets/splash_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.amzingCommercewerto.jot"
+    },
+
+    "android": {
+      "package": "com.vikramsingh15j.great_places",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
+      }
+    }
+  }
+}
